@@ -1,0 +1,215 @@
+.answer_page {
+	background: url("./img/answer-bg.png") left top no-repeat;
+	background-size: cover;
+}
+
+.video_player {
+	width: 100%;
+	height: auto;
+	min-height: 150px;
+	vertical-align: middle;
+	object-fit: contain;
+	background-color: #000000;
+}
+
+.video_control {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 12px;
+	left: 0;
+	bottom: 10px;
+}
+
+.vplay_img {
+	height: 32px;
+	width: 32px;
+}
+
+.v_time {
+	width: 52px;
+}
+
+.v_play_time {
+	text-align: right;
+	padding-right: 11px;
+}
+
+.v_all_time {
+	padding-left: 11px;
+}
+
+.vall_length {
+	height: 2px;
+	margin-top: 15px;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 171px;
+	width: calc(100% - 136px);
+}
+
+.vbuffer_length {
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.vplay_length {
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(13, 182, 237, 0.8);
+}
+
+.qus_wrap {
+	padding: 28px 14px;
+	//background: url("./img/answer-bg.png") left top no-repeat;
+	//background-size: cover;
+}
+
+.qus_box {
+	padding: 20px 22px 12px 22px;
+	border-radius: 15px;
+}
+
+.ff_num {
+	font-family: "Avenir Next", Roboto-Regular, HelveticaNeue, Arial, sans-serif;
+}
+
+.qis_time {
+	display: inline-block;
+	vertical-align: top;
+	color: #5165C6;
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+	border: 6px solid #F7D842;
+	line-height: 52px;
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+
+.qis_title {
+	line-height: 36px;
+	padding-bottom: 22px;
+}
+
+.ans_wrap {
+	min-height: 50px;
+	border-radius: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 12px;
+}
+
+.ans_not_sel {
+	color: #707070;
+	border: 2px solid #eaf0f5;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+.ans_box {
+	line-height: 24px;
+}
+
+.ans_sel {
+	color: #ffffff;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.ans_sel_right {
+	background-color: #20D9C5;
+}
+
+.ans_sel_error {
+	background-color: #F63865;
+}
+
+.answer_popup_box {
+	top: 50%;
+	left: 0;
+	z-index: 1000;
+	margin-top: -109px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.fail_img {
+	width: 96px;
+}
+
+.revive_img {
+	width: 196px;
+}
+
+.tip_text {
+	font-size: 28px;
+	text-shadow: 0 2px red, 2px 0 red, -2px 0 red, 0 -2px red;
+	font-style: oblique;
+	padding: 15px 5px;
+}
+
+.confirm_btn {
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	width: 140px;
+	background-color: #41aae1;
+	margin: 0 auto;
+}
+
+.success_popup_box {
+	margin-top: -148px;
+	margin-left: -45%;
+	width: 90%;
+	padding: 10px 10px 29px 10px;
+}
+
+.win_img {
+	width: 170px;
+}
+
+.success_title {
+	font-size: 22px;
+	padding: 15px 0 12px 0;
+}
+
+.success_money {
+	font-size: 30px;
+}
+
+.success_share_btn {
+	height: 48px;
+	line-height: 48px;
+	border-radius: 24px;
+	background-color: #7256ff;
+	margin: 20px auto 0 auto;
+}
+
+.close_box {
+	padding: 6px;
+	top: 10px;
+	right: 10px;
+}
+
+.close_img {
+	width: 14px;
+	height: 14px;
+}
+
+.see_video {
+	padding: 72px 0 129px 0;
+	border-radius: 15px;
+}
+
+.rabit_img {
+	width: 102px;
+	margin-bottom: 38px;
+}
+
+.see_video_text {
+	font-size: 19px;
+	color: #A1ACB5;
+}

@@ -1,0 +1,238 @@
+.home {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+.title_box {
+	padding-top: 31px;
+}
+
+.title {
+	width: 85%;
+}
+
+.title_tip {
+	margin-top: -10px;
+}
+
+.start_btn_box {
+	height: 46px;
+	margin: 17px 0 34px 0;
+}
+
+.home_btn {
+	height: 46px;
+	line-height: 46px;
+	border-radius: 23px;
+}
+
+.start_btn {
+	width: 42%;
+	background-color: #ffd460;
+	color: #805318;
+}
+
+.dis_start_btn {
+	width: 42%;
+	background-color: #a4a4a4;
+	color: #ffffff;
+	font-size: 12px !important;
+}
+
+.code_btn {
+	width: 50%;
+}
+
+.rule_box {
+	right: 15px;
+	top: 13px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.ask_img {
+	height: 20px;
+	width: 20px;
+	margin-right: 5px;
+}
+
+.content_box {
+	padding-top: 25px;
+}
+
+.avatar {
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	left: 50%;
+	margin-left: -30px;
+	top: -35px;
+}
+
+.nickname {
+	height: 55px;
+	line-height: 54px;
+}
+
+.info_box {
+	width: 50%;
+	padding-bottom: 17px;
+}
+
+.info_box2 {
+	border-left: 1px solid #eeeeee;
+	margin-left: -1px;
+}
+
+.info_title {
+	margin: 30px 0 13px 0;
+}
+
+.code_btn_box {
+	padding: 19px 0;
+}
+
+.invite_box {
+	height: 78px;
+	padding: 0 15px 0 20px;
+}
+
+.invite_text {
+	margin-top: 28px;
+}
+
+.revive_card {
+	height: 27px;
+	line-height: 27px;
+	width: 32px;
+	margin: 25.5px 0 0 20px;
+	background: url("./img/revive.png") no-repeat center;
+	background-size: contain;
+}
+
+.invite_btn {
+	height: 38px;
+	border-radius: 19px;
+	color: #8d6fff;
+	border: 2px solid #e1e1e1;
+	line-height: 34px;
+	padding: 0 16px;
+	margin-top: 20px;
+}
+
+.invite_popup_box {
+	margin-top: -80px;
+	margin-left: -45%;
+	width: 90%;
+	height: 160px;
+}
+
+.invite_popup_title {
+	padding: 29px 0 21px 0;
+}
+
+.invite_input_box {
+	height: 54px;
+	line-height: 50px;
+	border-radius: 27px;
+	border: 2px solid #dedede;
+	padding: 0 6px 0 18px;
+	width: 83%;
+}
+
+.invite_sure_img {
+	height: 42px;
+	width: 42px;
+	margin-top: 4px;
+}
+
+.invite_input {
+	width: 168px;
+	width: calc(100% - 42px);
+	height: 100%;
+	border: none;
+	padding-right: 6px;
+}
+
+.invite_error {
+	height: 30px;
+	line-height: 30px;
+	color: #e53e3b;
+	text-align: left;
+	width: 83%;
+	padding-left: 15px;
+}
+
+.task_popup_box {
+	margin-top: -170px;
+	margin-left: -45%;
+	width: 90%;
+	padding-bottom: 29px;
+}
+
+.task_pad {
+	padding: 0 20px;
+}
+
+.task_pad2 {
+	padding: 20px 23px;
+}
+
+.task_popup_title {
+	padding: 19px 0 18px 0;
+	border-bottom: 1px solid #cccccc;
+}
+
+.task_img {
+	height: 16px;
+	width: 14px;
+}
+
+.task_name {
+	padding-left: 8px;
+	width: 140px;
+	width: calc(100% - 102px);
+}
+
+.task_progress {
+	width: 88px;
+	text-align: right;
+}
+
+.mar_bot_20 {
+	margin-bottom: 20px;
+}
+
+.task_btn {
+	width: 182px;
+	height: 48px;
+	line-height: 48px;
+	border-radius: 24px;
+}
+
+.no_rank_title {
+	padding: 32px 0 19px 0;
+}
+
+.no_rank_box {
+	margin-top: -65px;
+	margin-left: -141px;
+	width: 282px;
+	height: 130px;
+}
+
+.confirm_btn {
+	font-size: 15px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 18px;
+	width: 124px;
+	margin: 0 auto;
+}
+
+.cat_img {
+	width: 74px;
+	height: 65px;
+	margin: 18px 0 15px 0;
+}
