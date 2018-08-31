@@ -42,7 +42,7 @@ export default class Wallet extends Component {
 
 				<div class={`text-center ${style.app_qr_wrap}`}>
 					<img class={`${style.app_qr_img}`} src={appQR}/>
-					<div class={`${style.app_qr_tip}`}>扫描二维码或在各大应用商店下载喵看<br/>在答题活动页面提现</div>
+					<div class={`${style.app_qr_tip}`}>扫描二维码或在各大应用商店下载XXapp<br/>在答题活动页面提现</div>
 				</div>
 			</div>
 		);

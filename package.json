@@ -1,7 +1,7 @@
 {
-  "name": "MiaoKan-H5",
+  "name": "H5",
   "version": "1.0.0",
-  "description": "喵看答题H5",
+  "description": "答题H5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
