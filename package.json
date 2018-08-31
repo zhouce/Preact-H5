@@ -1,0 +1,62 @@
+{
+  "name": "MiaoKan-H5",
+  "version": "1.0.0",
+  "description": "喵看答题H5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack --config webpack.dev.config.js",
+    "start": "webpack-dev-server --config webpack.dev.config.js --color --inline --hot --progress",
+    "build": "webpack --config webpack.config.js",
+    "mock": "json-server mock/mock.js --watch --port 8090 --routes mock/routes.json",
+    "mockdev": "npm run mock & npm start"
+  },
+  "keywords": [
+    "preact",
+    "mobx",
+    "preact-router",
+    "webpack",
+    "es6"
+  ],
+  "author": "zhouce",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bundle-loader": "^0.5.5",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "json-server": "^0.12.1",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.7.2",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "preact-async-route": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "js-base64": "^2.4.3",
+    "mobx": "^3.6.0",
+    "mobx-preact": "^1.1.0",
+    "preact": "^8.2.7",
+    "preact-router": "^2.6.0",
+    "weixin-js-sdk": "^1.3.2"
+  }
+}
