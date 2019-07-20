@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 const Axios = axios.create({
-	baseURL: 'https://service.miaokanvideo.com'
+	baseURL: 'https://www.test.com'
 });
 export default Axios;
